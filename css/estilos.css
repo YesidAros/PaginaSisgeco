@@ -113,20 +113,30 @@
 /************************ Estilos Contenido ************************/
 
 .Contenido {
-    /*background-color: red;*/
+    
     position: absolute;
     top: 0;
     bottom: 0;
     right: 7%;
     left: 7%;
     width: 86%;
+    height: auto;
     margin-top: 45%;
 }
 
 /************************ Estilos Servicios ***************************/
+
+.infoservicios {
+    
+    position: absolute;
+    width: 1100px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
 .nuestroservicios {
     position: relative;
-    margin: 10% 20% 2%;
+    margin: 3% 20% 2%;
     text-align: justify;
 }
 
@@ -146,13 +156,7 @@
 
 }
 
-.infoservicios {
 
-    position: absolute;
-    width: 1100px;
-    margin-top: 50px;
-    margin-left: 150px;
-}
 
 /**** Estilos Servicios SG-SST ***/
 
@@ -696,17 +700,125 @@
 /**************** Footer *******************/
 
 .Contenedorfooter {
-    position: absolute;
+    position: relative;
     background-color: #1C355E;
     width: 100%;
     height: 200px;
-    top: 2480px;
+    top: 2250px;
     bottom: 0;
     right: 0%;
     left: 0%;
 }
 
+.Empresa {
+    position: absolute;
+    top: 15%;
+    bottom: 0;
+    right: 0;
+    left: 75%;
+    width: 250px;
+    height: 160px;
+}
+
+.empresalogo img {
+    height: 120PX;
+    margin-left: 20px;
+}
+
+.empresainfo{
+    color: white;
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.DatosEmpresa {
+    position: absolute;
+    top: 15%;
+    bottom: 0;
+    right: 0;
+    left: 40%;
+    width: 250px;
+    height: 160px;
+}
+
+.DatosEmpresa p {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.redes {
+    position: absolute;
+    top: 15%;
+    bottom: 0;
+    right: 0;
+    left: 5%;
+    width: 400px;
+    height: 160px;
+}
+
+.redes p {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.Facebook {
+    display: inline-block;
+    height: 50px;
+    position: absolute;
+    top: 35px;
+    bottom: 0;
+    right: 0;
+    left: 150px;
+}
+
+.Facebook img{
+    width: 40px;
+}
 
 
+.Instagram {
+    display: inline-block;
+    height: 50px;
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    right: 0;
+    left: 200px;
+}
+
+.Instagram img{
+    width: 30px;
+}
 
 
+.Twitter {
+    display: inline-block;
+    height: 50px;
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    right: 0;
+    left: 150px;
+}
+
+.Twitter img{
+    width: 30px;
+}
+
+
+.Youtube {
+    display: inline-block;
+    height: 50px;
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    right: 0;
+    left: 200px;;
+}
+
+.Youtube img{
+    width: 30px;
+}
